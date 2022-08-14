@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./src/main.js"
+    "dev": "nodemon ./src/main.js",
+    "serve": "pm2 start ./src/main.js"
   },
   "dependencies": {
     "express": "~4.16.1",
